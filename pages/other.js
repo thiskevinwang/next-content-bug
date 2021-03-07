@@ -1,12 +1,12 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
-  const one = "HOME";
+export default function Other() {
+  const one = "OTHER";
   return (
     <main>
-      <Link href="/other">
-        <a>Other</a>
+      <Link href="/">
+        <a>Home</a>
       </Link>
       <h1 className={styles.title}>
         <style jsx>{`
